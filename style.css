@@ -1,0 +1,939 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    font-family:open sans;
+    width: 100%;
+    overflow-x: hidden;
+   
+    
+}
+
+/* ----------------navigation bar ----home----------------------------------------------header------------------------------------------------------- */
+
+/* ----------------bootstrap------3---4--nav--bar----------------------- */
+#header
+{ 
+    width: 100%;
+   
+    z-index: 2;
+  
+    background-color:#3d3d3d!important;
+    font-size:25px ;
+
+}
+.logo{
+    position: absolute ;
+    top:10px ;
+    left: 2px;
+}
+nav ul li a:hover{
+    border-radius: 40px ;
+    background-color: #dc3545;
+    color: white;
+}
+ 
+
+
+/* ----------------nav--responsive--------------------------- */
+/* ***********************************slider**********************/
+.slider{
+    overflow: hidden;
+    width: 100%;
+    height:100vh!important  ;
+ 
+}
+.slider figure div{
+    float: left;
+    width: 20%;
+}
+.slider figure img
+{ 
+    margin-top:60px!important;
+    width: 100%!important;
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+   
+}
+
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 30;
+    animation:animate 70s infinite ;
+
+}
+/* h1 code of slide */
+ .name  {
+    position: absolute;
+    color: #dc3545;
+    font-size: 70px;
+    padding-left:15px ;
+    /* text-align: center; */
+    margin-top:660px;
+    margin-left: 20px;
+    font-family: Open Sans;
+
+    background:rgba(0,0,0,0.5) ;
+    width: 8%;
+    height:100px;
+}
+.slogan{
+    color: #dc3545;
+    position: absolute ;
+    font-size: 80px;
+    margin-left: 240px;
+    margin-top:330px;
+    font-family: Open Sans;
+
+}
+
+@keyframes animate
+{
+     0% {left: 0%;}
+     10% {left: 0%;}
+     12% {left: -100%;}
+     22% {left: -100%;}
+     24% {left: -200%;}
+     34% {left:  -200%;}
+     36% {left: -300%;}
+     46% {left: -300%;}
+     48% {left: -400%;}
+     58% {left: -400%;}
+     60% {left: -300%;}
+     70% {left: -300%;}
+     72% {left: -200%;}
+     82% {left: -200%;}
+     84% {left: -100%;}
+     94% {left: -100%;}
+     96% {left: 0%;} 
+    
+
+}
+
+/* ***********************************slider*******End ***************/
+
+/* ------------------2nd last foooter------------------------------------------------------------- */
+
+.Footer{
+    margin-top:2px;
+    width:100% ;
+    height:600px;
+    background-color: #353535;
+    color: #fff;
+    text-decoration: none;
+}
+.Service{
+    list-style: none;
+    padding-left:44px ;
+    color: white;
+    position: absolute;
+top:1000px;
+}
+.Service ul li a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+font-family:open sans;
+list-style: none;
+}
+.Service ul{
+padding-top: 20px;
+list-style: none;
+}
+.panda{
+    width:20px;
+    height:20px;
+
+}
+.Payment{
+padding-left: 480px;
+position: absolute;
+top:1000px;
+list-style: none;
+
+}
+.Payment ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family:open sans ;
+    list-style: none;
+
+}
+.Payment ul {
+    padding-top:20px ;
+    list-style: none;
+}
+
+.followus{
+  
+    padding-left:950px;
+    list-style: none;
+    color:white;
+    text-decoration: none;
+    position: absolute;
+top:1000px;
+}
+
+.followus ul li a{
+    
+    text-decoration: none;
+    font-size:20px;
+    color: #fff;
+    font-family:open sans;
+    list-style: none;
+}
+.followus ul{
+    padding-top:20px ;
+    list-style: none;
+}
+
+
+
+
+
+
+/* ************Navigation ***Deals************side menu******************************************* */
+
+
+
+/* *********************desi deals**************slider**********************/
+.slider2{
+    overflow: hidden;
+    width:75%;
+    height:680px ;
+    margin-top:90px;
+    position: absolute;
+    top:15px ;
+    left: 300px;
+}
+.slider2 figure div{
+    float: left;
+    width: 20%;
+}
+.slider2 figure img
+{
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.slider2 figure{
+    position: absolute;
+    width: 500%;
+    margin: 30;
+    animation:animate 70s infinite ;
+
+}
+/* h1 code of slide */
+ .name2  {
+    position: absolute;
+    color: #dd2d3f;
+    font-size: 70px;
+    padding-left:15px ;
+    /* text-align: center; */
+    margin-top:600px;
+    margin-left: 20px;
+    font-family: Open Sans;
+
+    background:rgba(0,0,0,0.5) ;
+    width:12%;
+    height:100px;
+}
+/* -----Add--of--button---deals---01--------------------------------------------- */
+.button01{
+    position: absolute;
+    background-color:#e0352b;
+    color: white;
+    width: 150px;
+    height: 80px;
+    border: 1px solid #e0352b;
+    border-radius: 40px;
+    margin-left:950px ;
+    margin-top:536px ;
+    font-family: Open Sans;
+    font-size: 40px;
+
+
+}
+.slogan2{
+    color: #dc3545;
+    position: absolute ;
+    font-size: 80px;
+    margin-left:90px;
+    margin-top:180px;
+    font-family: Open Sans;
+
+}
+
+@keyframes animate
+{
+     0% {left: 0%;}
+     10% {left: 0%;}
+     12% {left: -100%;}
+     22% {left: -100%;}
+     24% {left: -200%;}
+     34% {left:  -200%;}
+     36% {left: -300%;}
+     46% {left: -300%;}
+     48% {left: -400%;}
+     58% {left: -400%;}
+     60% {left: -300%;}
+     70% {left: -300%;}
+     72% {left: -200%;}
+     82% {left: -200%;}
+     84% {left: -100%;}
+     94% {left: -100%;}
+     96% {left: 0%;} 
+    
+
+}
+
+/* ******************************deals*****slider*******End ***************/
+
+/* ---------------form ----of  register --your---deals-------------------------------------- */
+/* ----------------this code-for---deals--part------------------------ */
+
+
+
+
+
+.form-popup {
+    display: none;
+    position: fixed;
+    top: 200px;
+    left:700px;
+    border: 3px solid #f1f1f1;
+    z-index: 10;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color:rgb(61,61, 61);
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password],.form-container input[type=tel] {
+    width: 100%;
+    padding: 10px;
+    margin: 2px 0 2px 0;
+    border: none;
+    background: #f1f1f1;
+    outline: none;
+  }
+  .pay{
+    width: 100%;
+    padding: 10px;
+    margin: 2px 0 2px 0;
+    border: none;
+    background: #f1f1f1;
+    color: grey;
+    outline: none;
+
+  }
+  .itemname option{
+    width: 100%;
+    padding: 10px;
+    margin: 2px 0 2px 0;
+    border: none;
+    background: #f1f1f1;
+    color: grey;
+    outline: none;
+
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    color: #dc3545;
+    background-color: #3d3d3d;
+   text-align: center;
+    padding: 5px 20px;
+    border-radius: 40px;
+  
+   
+    border: 2px solid#dc3545;
+    cursor: pointer;
+    width: 40%;
+    height: 40px;
+    margin-bottom:-10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    color: #dc3545;
+    background-color: #3d3d3d;
+    margin: 10px 0px 2px 40px;
+    border: 2px solid#dc3545;
+  }
+  .cancel,.btn:hover{
+    color: #427900;
+    border:2px solid #dc3545;
+    border-radius: 40px;
+  }
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 5;
+  }
+/* ----------------this code-for--whats--new-part--end---------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------- */
+
+
+
+
+
+
+
+/* Set height of body and the document to 100%    side bAr*/
+/* body, html {
+  height: 100%;
+  margin: 0;
+  font-family: open sans;
+} */
+
+/* Style tab links */
+/* .tablink {
+  background-color: #ffc423;
+  margin-top: -4px;
+  color: #a25716;
+  border: 1px solid #a25716;
+  border-right:none ;
+  border-left:none ;
+
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  padding:18px 16px;
+  font-size: 17px;
+  width:160px;
+  outline: none;
+}
+.tab{
+  position: relative; 
+  top:80px;
+  right:-40px;
+  outline: none;
+    border-radius:40px;
+}
+
+.tablink:hover {
+  background-color:#3d3d3d;
+  color:red;
+  outline: none;
+} */
+
+
+/* ----------------Side---navigation--bar-------------------------------- */
+
+.sidenav {
+    height:630px;
+    width:0;
+    position: fixed; 
+    z-index: 1;
+    top: 130px;
+    left: 5px;
+    background-color:rgba(46, 46, 46, 0);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+  }
+  
+  .sidenav button {
+    
+  
+    text-decoration: none;
+    font-size: 25px;
+    color:  #dc3545;
+    background-color:#2e2e2e;
+    display: block;
+    transition: 0.3s;
+    height:50px;
+    width: 180px;
+    border:3px solid #dc3545 ;
+    border-radius: 40px;
+    outline: none;
+    margin:-10px 6px;
+
+  }
+  
+  .sidenav button:hover {
+    background-color:#2e2e2e;
+  color:#427900;
+  
+  outline: none;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top:-18px;
+    right: 0px;
+    font-size: 36px;
+    margin-left: 80px;
+    color:#dc3545 ;
+  }
+
+
+/*--------------------- demo------------------------------ */
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  margin-left:160px ;
+  margin-top:-230px ;
+  padding: 100px 20px;
+  height: 99%;
+  width: 90%;
+}
+
+
+
+/* *****************************************side menu**************************************************************************************** */
+
+
+/* ********************************************content boxes**1************************************************************************************************** */
+/* image 1 */
+.box1{
+    width:308px ;
+    height:310px;
+    padding-left:30px;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+  position: absolute;
+  top:80px ;
+  left:600px;
+}
+/*------------------- heading 01--------------- */
+.heading01{
+    color: #3d3d3d;
+    text-align: center;
+    padding-right:30px ;
+    padding-top:11px;
+}
+/*--------- heading 1-------------- */
+.heading1{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:260px;
+}
+/* button  1************/
+.button1{
+    background-color:#e0352b;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    margin-left:120px ;
+    margin-top:36px ;
+}
+
+
+/* image 2 */
+.box2{
+    width:308px ;
+    height:310px;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    padding-left:30px;
+    position: absolute;
+    top:410px ;
+    left:600px;
+    
+}
+.box2 img{
+    padding-top:20px ;
+}
+/*------------------- heading 02--------------- */
+.heading02{
+    color: #3d3d3d;
+    text-align: center;
+    padding-right:30px ;
+}
+/*--------- heading 2-------------- */
+.heading2{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top: 260px;
+}
+/* button  2************/
+.button2{
+    background-color:#e0352b;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    margin-left:120px ;
+    margin-top:25px ;
+}
+
+/* -----image 3------------------- */
+ .box3{
+    width:308px ;
+    height:310px;
+    padding-left:30px;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    position: absolute;
+    top:410px;
+    left: 230px;
+}
+/*------------------- heading 03--------------- */
+.heading03{
+    color: #3d3d3d;
+    text-align: center;
+    padding-right:30px ;
+    padding-top:20px;
+}
+
+/*--------- heading 3-------------- */
+.heading3{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top: 260px;
+}
+/* button  3************/
+.button3{
+    background-color:#e0352b;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    margin-left:120px ;
+    margin-top:25px ;
+}
+
+/* ---------image 4 */
+.box4{
+    width:308px ;
+    height:310px;
+    padding-left:30px;
+    padding-top:15px ;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    position: absolute;
+    top:80px;
+    left:230px;
+}
+/* -------heading 04--------------------- */
+.heading04{
+    color: #3d3d3d;
+    text-align: center;
+    margin-right:30px;
+}
+/*--------- heading 4-------------- */
+.heading4{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:260px;
+}
+/* button  4************/
+.button4{
+    background-color:#e0352b;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    margin-left:120px ;
+    margin-top:9px ;
+}
+/* -------image 5------------------------------ */
+
+.box5{
+    width:308px ;
+    height:310px;
+    padding-left:30px;
+    padding-top:15px ;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    position: absolute;
+    top:80px;
+    left:970px;
+}
+/* -------heading 05--------------------- */
+.heading05{
+    color: #3d3d3d;
+    text-align: center;
+    margin-right:30px;
+}
+/*--------- heading 5-------------- */
+.heading5{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:260px;
+}
+/* button  5************/
+.button5{
+    background-color:#e0352b;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    margin-left:120px ;
+    margin-top:30px ;
+}
+/* --------image 6---------------------- */
+
+.box6{
+    width:308px ;
+    height:310px;
+    padding-left:30px;
+    padding-top:15px ;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    position: absolute;
+    top:410px;
+    left:970px;
+}
+/* -------heading 06--------------------- */
+.heading06{
+    color: #3d3d3d;
+    text-align: center;
+    margin-right:30px;
+}
+/*--------- heading 6--------------------- */
+.heading6{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:260px;
+}
+/*--------------- button 6************/
+.button6{
+    background-color:#e0352b;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    margin-left:120px ;
+    margin-top:30px ;
+}
+
+
+
+
+/* *******************************************content boxes**1***************************************************************************************************** */
+
+
+
+
+
+/* -------contact----section is----start----contact----form-------------------------------------------------------------------------- */
+
+.contact{
+    width: 100%;
+    height:800px;
+    background-color: #3d3d3d;
+    margin-top: 0px;
+    overflow-y:hidden ;
+}
+.logo2{
+    padding-top: 80px;
+   
+    text-align: center;
+}
+.location{
+    margin-left: 200px;
+}
+.map
+
+{
+   
+       padding-left: 100px;
+    padding-top: 4px;
+    width:620px ;
+    height:470px ;
+}
+
+.form2{
+    width: 60%;
+    margin-left: 1000px;
+    padding-top:50px;
+    position: absolute;
+    top:203px;
+}
+.form2 input{
+    display: block;
+    height:50px;
+    width:350px;
+    border-radius: 40px;
+}
+.form2 input[type=text], .form2 input[type=email],.form2 input[type=submit],.form2 select ,.form2 input[type=option] {
+ 
+    padding: 10px;
+    margin: 8px 0 8px 0;
+    border: none;
+    background: #f1f1f1;
+    outline: none;
+  }
+  .selectcon{
+    border-radius: 40px;height:50px ;width:350px;color: grey;margin: 1px 0 1px 0;
+  }
+#subbtn
+{
+    color: #dc3545;
+    background-color: #3d3d3d;
+    width: 100px;
+    height: 45px;
+    border:2px solid #427900;
+     border-radius: 40px;
+     margin-top:40px ;
+}
+#subbtn:hover{
+    color: #427900;
+    border:2px solid #dc3545;
+    border-radius: 40px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------contact----section----------is----start----contact----form-------------------------------------------------------------------------- */
+
+
+/* -------about--us--------section is----start-----------About----us---------------------------------------------------------------- */
+
+#aboutus{
+    background-image: url(img/sp.jpg );
+    background-attachment: cover!important;
+    background-size: cover!important;
+    height:740px;
+}
+.con{
+    border: 2px solid #dc3545 ;
+    text-align: center;
+    width: 800px!important;
+    height:500px!important;
+    background-color: rgba(61, 61, 61,0.5);
+    margin-left:380px!important;
+}
+.about
+{
+    font-family: open Sans;
+    font-size: 25px;
+    color:white;
+}
+.huz img{
+    width:200px!important;
+    height:200px!important;
+    position: absolute!important;
+    top: 80px!important;
+    left:100px!important;
+    border: 3px solid #427900 ;
+}
+.owmer{
+    background-color:#3d3d3d;
+    color:#dc3545  ;
+    width:200px!important;
+    font-family: open sans;
+    font-size: 30px;
+    position: absolute;
+    top:260px;
+    left:100px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------about--us--------section is----start-----------About----us---------------------------------------------------------------- */
+
+
+/* ******************************************footer************************************************************************************* */
+
+.main-footer{
+    
+    background-color:#343a40;
+    color: #dd2d3f ;
+    margin-top:0px ;
+    padding-left:650px;
+    width:1600px!important ;
+    height:80px!important;
+}
+.main-footer p{
+    padding-top:20px ;
+
+}
+/* ******************************************footer************************************************************************************* */
+
+
+
+
+
+
+

@@ -1,0 +1,2807 @@
+/*----- iPhone 5-------,iPad-------other-----devices----- which---- --adjust---- on-------320px------ width-----320---- */
+
+/* ------home---Navigation--Responsive--------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media screen and (max-width: 320px)
+{ 
+    /* html,body{ 
+        overflow-x:hidden!important ;
+        width:100%!important;
+       
+   
+    } */
+   /* ---------home---button---nav------------------------------------------------ */
+    .container{
+        width:320px!important;
+    }
+    nav{
+        width: 320px!important;
+    }
+    
+    .navbar-toggler-icon{
+        width: 20px; 
+
+    }
+    .fas-fa-pepper-hot{
+        font-size: 1px!important;
+    }
+    .logo{
+        font-size:22px!important;
+    }
+    .slider{
+
+       height:520px!important;
+      width:100%!important;
+      background-size: cover!important;
+      margin-bottom: 0px!important;
+    }
+    .name{
+        font-size: 25px!important;
+        position: absolute!important;
+        top:-180px!important;
+        width:250px!important ;
+        height:70px!important;
+        
+    }
+    .slide img{
+        height:600px!important;
+    }
+    .slide .slogan{
+        font-size:22px!important;
+        width:130px!important;
+       position: absolute!important;
+       right:90px!important;
+   
+    }
+
+    .footer{
+       
+        width:320px!important;
+        height:1000px!important;
+       
+    }
+    .Service{
+        width: 300px!important;
+        height:170px!important ;
+        position: absolute!important;
+        top:800px!important;
+
+       
+
+    }
+    .line1{
+        position: absolute;
+        left: 20px;
+    }
+
+    .Service ul li a {
+        color: white;
+        position: absolute;
+        left: 20px;
+        margin-top: 30px;
+
+    }
+    .Service ul{
+        padding-top: 20px;
+        list-style: none;
+        }
+    .Service h3{
+        color: white;
+        position: absolute;
+        left: 20px;
+    }
+    .Payment{
+        width: 300px;
+        height:200px ;
+        position: absolute!important;
+        top:1000px!important;
+
+
+    }
+    .line2{
+        position: absolute;
+        left: 20px;
+    }
+
+    .Payment ul li a {
+        color: white;
+        position: absolute;
+        left: 20px;
+        margin-top: 30px;
+
+    }
+    .Payment ul{
+        padding-top: 20px;
+        list-style: none;
+        }
+    .Payment h3{
+        color: white;
+        position: absolute;
+        left: 20px;
+    }
+    .followus{
+        width: 300px;
+        height:200px ;
+        position: absolute;
+        top:1005px!important;
+        
+    }
+    .line3{
+        position: absolute;
+        left: 20px;
+    }
+    .followus ul li a{
+        color: white;
+        position: absolute!important;
+      
+        left: 20px!important;
+        margin-top: 30px!important;
+      
+    }
+   
+    .followus h3{
+        color: white;
+        position: absolute;
+        left: 20px;
+    }
+    .main-footer {
+      
+        /* overflow-Y: hidden!important; */
+        width:100%!important;
+        position: absolute;
+        top: 1200px!important;
+    }
+
+    
+    .para{
+
+        width:50% !important;
+        position: absolute !important;
+        left:40px !important;
+    }
+ /* ---------home---button---nav---Enddddd--------------------------------------------------- */
+
+  /* ---------Deals-menu--button---nav---Enddddd--------------------------------------------- */
+  
+  .sidenav {padding-top: 15px;}
+  .sidenav button {font-size: 18px;}
+
+  .menu1{
+    font-size:22px!important;
+    padding-top: 0px!important;
+    margin-top: 0px;
+  }
+
+
+  .tabcontent{
+      margin-top:20px ;
+      position: absolute;
+      left:-460px;
+      height:50%;
+  width: 100%;}
+  
+  .slider2{
+      width: 100%;
+  }
+  .slide2 img{
+    width: 100%!important;
+    height: 515px!important;
+    background-size: cover;
+}
+ .name2{
+    font-size: 25px;
+    position: absolute;
+    top:-130px;
+    margin-left:0px ;
+    
+    width:250px!important ;
+    height:40px;
+    
+
+}
+.slide2 .slogan2{
+    font-size:28px!important;
+    width:130px!important;
+   position: absolute!important;
+   left:-5px!important;
+   top:10px!important;
+
+}
+ 
+.button01{
+    margin-top:400px;
+    margin-left:220px;
+    font-size: 20px;
+    height: 50px;
+    width: 80px;
+}
+/*----------------- deals-------------------- buy------------------------ form */
+.form-popup {
+    display: none;
+    position: fixed;
+    top:120px!important;
+    margin-left:-50px!important;
+    border: 3px solid #f1f1f1;
+    z-index: 10;
+    width:290px!important;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    width: 290px!important;
+    padding:18px;
+    background-color:rgb(61,61, 61);
+  }
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password],.form-container input[type=tel] {
+    width:260px!important;
+    height: 35px;
+    padding: 10px;
+    margin: 2px 0 2px 0;
+    border: none;
+    background: #f1f1f1;
+    outline: none;
+  }
+  .pay{
+    width: 260px !important;
+    padding: 10px;
+    margin: 2px 0 2px 0;
+    border: none;
+    background: #f1f1f1;
+    color: grey;
+    outline: none;
+
+  }
+  .itemname{
+    width: 260px !important;
+    padding: 10px;
+    margin: 2px 0 2px 0;
+    border: none;
+    background: #f1f1f1;
+    color: grey;
+    outline: none;
+
+  }
+  
+  
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+   
+   
+   text-align: center;
+    padding: 0px 5px;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 40%;
+    height: 40px;
+    margin-bottom:-10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+   
+    margin: 10px 0px 2px 20px;
+    border: 2px solid#dc3545;
+  }
+  
+/* ********************************************content boxes**1**************************************responsive******************************************** */
+/* image 1 */
+.box1{
+    width:250px!important ;
+    height:260px!important;
+    padding-left:30px;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+  /* position: absolute;
+  top:660px!important ; */
+  margin-left:-30px!important;
+   
+
+}
+/*------------------- heading 01--------------- */
+.box1 img{
+    height:90px ;
+    width: 120px;
+    padding-left:10px;
+}
+.heading01{
+    color: #3d3d3d;
+    text-align: center;
+    padding-right:30px!important  ;
+    padding-top:15px!important;
+    font-size:20px;
+}
+/*--------- heading 1-------------- */
+.heading1{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:220px!important;
+    left: 5px;
+    font-size:20px;
+}
+/* button  1************/
+.button1{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    margin-left:126px!important ;
+    position: absolute;
+    top:200px!important;
+}
+
+
+/* image 2 */
+.box2{
+    width:250px!important ;
+    height:260px!important;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    padding-left:30px;
+    /* position: absolute;
+    top:930px!important ;
+ left:300px!important; */
+ margin-left:-30px!important;
+   
+   
+    
+}
+.box2 img{
+    height:90px ;
+    width: 120px;
+    padding-left:10px;
+}
+/*------------------- heading 02--------------- */
+.heading02{
+     color: #3d3d3d;
+    text-align: center;
+    padding-right:30px ;
+    padding-top:15px;
+    font-size:20px;
+}
+/*--------- heading 2-------------- */
+.heading2{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:220px!important;
+    left: 5px;
+    font-size:20px;
+}
+/* button  2************/
+.button2{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height:38px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    margin-left:126px!important ;
+   position: absolute;
+   top:215px!important;
+}
+
+/* -----image 3------------------- */
+ .box3{
+    width:250px!important ;
+    height:260px!important;
+    padding-left:30px;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    /* position: absolute;
+    top:390px!important;
+    left:300px!important; */
+    margin-left:-30px!important;
+}
+.box3 img{
+    height:90px ;
+    width: 120px;
+    padding-left:10px;
+}
+/*------------------- heading 03--------------- */
+.heading03{
+    color: #3d3d3d;
+    text-align: center;
+    padding-right:30px ;
+    padding-top:20px;
+    font-size:20px;
+}
+
+/*--------- heading 3-------------- */
+.heading3{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:220px!important;
+    left: 5px;
+    font-size:20px;
+}
+/* button  3************/
+.button3{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    margin-left:126px!important ;
+    position: absolute;
+    top:203px!important;
+}
+
+/* ---------image 4 */
+.box4{
+    width:250px!important ;
+    height:260px!important;
+    padding-left:30px;
+    padding-top:15px ;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    /* position: absolute!important;
+    top:120px!important; */
+  margin-left:-30px!important;
+   
+  
+}
+.box4 img{
+     height:90px ;
+     width: 120px;
+     padding-left:10px;
+
+}
+/* -------heading 04--------------------- */
+.heading04{
+    color: #3d3d3d;
+    text-align: center;
+    margin-right:30px;
+    font-size: 18px!important;
+    font-size:20px;
+}
+/*--------- heading 4-------------- */
+.heading4{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:215px!important;
+    left: 5px;
+    font-size:20px;
+}
+/* button  4************/
+.button4{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 70px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    margin-left:126px!important ;
+    position:absolute!important ;
+    top:215px!important;
+}
+/* -------image 5------------------------------ */
+
+.box5{
+    width:250px!important ;
+    height:260px!important;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    padding-left:30px;
+    /* position: absolute;
+    top:1200px!important ;
+   left:300px!important; */
+   margin-left:-30px!important;
+}
+.box5 img{
+     height:90px ;
+     width: 120px;
+     padding-left:10px;
+
+}
+/* -------heading 05--------------------- */
+ .heading05{
+     color: #3d3d3d;
+    text-align: center;
+    margin-right:30px;
+    font-size: 18px!important;
+    font-size:20px;
+} 
+/*--------- heading 5-------------- */
+.heading5{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:215px!important;
+    left: 5px;
+    font-size:20px;
+} 
+/* button  5************/
+.button5{
+     background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    margin-left:126px!important ;
+    position: absolute;
+    top:200px!important;
+} 
+/* --------image 6---------------------- */
+
+.box6{
+    width:250px!important ;
+    height:270px!important;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    padding-left:30px;
+    position: absolute;
+    /* top:1470px!important ;
+    left:300px!important;
+    bottom:10px; */
+    margin-left:-30px!important;
+} 
+.box6 img{
+    height:90px ;
+    width: 120px;
+    padding-left:10px;}
+/* -------heading 06--------------------- */
+.heading06{
+    color: #3d3d3d;
+   text-align: center;
+   margin-right:30px;
+   font-size: 18px!important;
+   font-size:20px;
+} 
+/*--------- heading 6--------------------- */
+.heading6{
+    color: rgb(49, 190, 49);
+    position: absolute!important;
+    top:215px!important;
+    left: 5px;
+    font-size:20px;
+} 
+/*--------------- button 6************/
+.button6{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute!important;
+    top:5px!important;
+   
+}  
+
+
+
+
+/* *******************************************content boxes**1***************************************************************************************************** */
+
+/* ----contact---us----form--respoNsive----------------------------------------------------------------------------------------------------------------------------------- */
+
+.contact{
+    width: 100%;
+    height:1250px;
+    background-color: #3d3d3d;
+    margin-top: 0px;
+    
+}
+
+.logo2{
+    padding-top: 80px;
+   
+    text-align: center;
+}
+.location{
+   position: absolute;
+   left: -100px;
+   top: 660px;
+}
+
+.map
+
+{
+   
+    padding-left:8px;
+    padding-top: 560px!important;
+   
+}
+.map iframe{ 
+    width:295px!important ;
+    height:470px!important ;
+    overflow-x: hidden!important;
+   
+    
+
+}
+
+.form2{
+    width:110px;
+    margin-left:-20px!important;
+    padding-top:10px!important;
+    position: absolute!important;
+    top:190px!important;
+}
+/* .form2 input,select{
+    display: block!important;
+    height:50px!important;
+    width:300px!important;
+    border-radius: 40px!important;
+} */
+.form2 select  {
+    display: block;
+    height:50px!important;
+    width:280px!important;
+    border-radius: 40px;
+}
+.form2 input[type=text], .form2 input[type=email],.form2 input[type=submit],.form2 select ,.form2 input[type=option] {
+ 
+    padding: 10px;
+    margin: 8px 0 8px 0;
+    border: none;
+    background: #f1f1f1;
+    outline: none;
+  }
+
+  /* --------About--us-----part------responsive----------------------------------------------------------------------------- */
+.huz{
+ position: absolute;
+ top:650px;
+ left:-90px;
+}
+.huz img{
+       width:300px;
+       height:400px;
+
+}
+.owmer{
+    position:absolute;
+top:400px;
+}
+
+.con{
+    width: 200px!important;
+    height: 360px;
+   position: absolute;
+right:1px!important ;
+}
+
+.about{
+    font-size:20px;
+}
+
+#aboutus{
+   
+    background-size: cover;
+    height:1170px;
+}
+
+  
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav button {font-size: 18px;}
+  }
+
+
+/* --responsive------all--programming--is done-----menu------deals---section----- is -----complete-------endd----responsive------------------------------- */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////End///responsive////320///px///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+/*----- Samsung--S10//Samsung--Note--9//Samsung--S9+//Samsung---S9//Samsung--S8+//Samsung S8//Samsung--S7//EdgeSamsung--S7------ */
+/* --other-----devices----- which---- --adjust---- on-------360px------ width-----360--- /// --start-----------------------------*/
+
+                         /* -----Home----section------responsive----------------------------------------- */
+
+
+@media screen and (max-width: 360px)
+{ 
+    body{
+        overflow-x: hidden!important;
+      
+    }
+    
+    .container{
+        width: 360px!important;
+        overflow-x: hidden!important;
+    }
+    nav{
+        width:360px;
+        overflow-x: hidden!important;
+    }
+    
+    .navbar-toggler-icon{
+        width: 20px; 
+    }
+    .fas-fa-pepper-hot{
+        font-size: 1px!important;
+    }
+    .logo{
+        font-size:22px!important;
+    }
+    .slider{
+        height: 650px!important; 
+      width:100%;
+      padding-left: 0px!important;
+      background-size: cover;
+    }
+    .name{
+        font-size: 25px;
+        position: absolute;
+        top:-180px!important;
+        width:250px!important ;
+        height:70px;
+        
+    }
+    .slogan{
+        font-size:30px;
+        width:150px!important;
+        text-align: center!important;
+        margin-left:90px!important;
+        position: absolute;
+        top: -100px!important;
+        left:0px!important;
+       
+
+    }
+
+
+    
+    .footer{
+        height:800px!important;
+        width:320px;
+      
+        overflow-x: hidden;
+    }
+    .main-footer {
+        width: 320px!important;
+        overflow-x: hidden!important;
+    }
+    .Service{
+        width: 300px;
+        height:170px ;
+        position: absolute;
+        top:660px!important;
+
+       
+
+    }
+    .line1{
+        position: absolute;
+        left: 20px;
+    }
+
+    .Service ul li a {
+        color: white;
+        position: absolute;
+        left: 20px;
+        margin-top:25px;
+
+    }
+    .Service h3{
+        color: white;
+        position: absolute;
+        left: 20px;
+    }
+    .Payment{
+        width: 300px;
+        height:200px ;
+        position: absolute;
+        top:790px!important;
+
+
+    }
+    .line2{
+        position: absolute;
+        left: 20px;
+    }
+
+    .Payment ul li a {
+        color: white;
+        position: absolute;
+        left: 20px;
+        margin-top:25px;
+
+    }
+    .Payment h3{
+        color: white;
+        position: absolute;
+        left: 20px;
+    }
+    .followus{
+        width: 300px;
+        height:200px ;
+        position: absolute;
+        top:960px;
+        
+    }
+    .line3{
+        position: absolute;
+        left: 20px;
+    }
+    .followus ul li a{
+        color: white;
+        position: absolute;
+        left: 20px;
+        margin-top:25px;
+    }
+    .followus h3{
+        color: white;
+        position: absolute;
+        left: 20px;
+    }
+    .main-footer{
+       position: absolute;
+       top:1170px;
+        width:5px!important;
+    }
+    .para{
+
+        width:100%;
+        position: absolute;
+        left:60px;
+    }
+
+
+       /* -----Deals----section------responsive----------------------------------------- */
+    
+       
+  /* ---------Deals-menu--button---nav---Enddddd--------------------------------------------- */
+  
+  .sidenav {padding-top: 15px;}
+  .sidenav button {font-size: 18px;}
+
+  .menu1{
+    font-size:22px!important;
+    padding-top: 0px!important;
+    margin-top: 0px;
+  }
+
+
+  .tabcontent{
+      margin-top:20px ;
+      position: absolute;
+      left:-460px;
+      height:50%;
+  width: 100%;}
+  
+  .slider2{
+      width: 100%;
+  }
+  .slide2 img{
+    width: 100%!important;
+    height: 515px!important;
+    background-size: cover;
+}
+ .name2{
+    font-size: 25px;
+    position: absolute;
+    top:-130px;
+    margin-left:0px ;
+    
+    width:250px!important ;
+    height:40px;
+    
+
+}
+ .slogan2{
+    font-size:30px;
+    width:150px!important;
+    text-align: center!important;
+    margin-left:90px!important;
+    position: absolute;
+    top: -100px!important;
+}
+.button01{
+    margin-top:400px;
+    margin-left:220px;
+    font-size: 20px;
+    height: 50px;
+    width: 80px;
+}
+
+/*----------------- deals-------------------- buy------------------------ form */
+.form-popup {
+    display: none;
+    position: fixed;
+    top:120px!important;
+    margin-left:-6px!important;
+    border: 3px solid #f1f1f1;
+    z-index: 10;
+    width: 240px!important;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    width:300px!important;
+    padding:15px;
+    background-color:rgb(61,61, 61);
+  }
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password],.form-container input[type=tel] {
+    width:260px!important;
+    height: 35px;
+    padding: 8px!important;
+    margin: 2px 0 2px 0;
+    border: none;
+    background: #f1f1f1;
+    outline: none;
+  }
+  .pay{
+    width:260px!important;
+    padding: 10px;
+    margin: 2px 0 2px 0;
+    border: none;
+    background: #f1f1f1;
+    color: grey;
+    outline: none;
+
+  }
+  .itemname{
+    width:260px!important;
+    padding: 10px;
+    margin: 2px 0 2px 0;
+    border: none;
+    background: #f1f1f1;
+    color: grey;
+    outline: none;
+
+  }
+  
+  
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+   
+   
+   text-align: center;
+    padding: 0px 5px;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 40%;
+    height: 40px;
+    margin-bottom:-10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+   
+    margin: 10px 0px 2px 20px;
+    border: 2px solid#dc3545;
+  }
+
+   
+/* ********************************************content boxes**1**************************************responsive******************************************** */
+/* image 1 */
+.box1{
+    width:260px!important ;
+    height:260px!important;
+    padding-left:30px;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+  position: absolute;
+  top:680px!important ;
+  left:350px!important;
+}
+/*------------------- heading 01--------------- */
+.box1 img{
+    height:140px ;
+    width:170px;
+    padding-left:8px;
+}
+.heading01{
+    color: #3d3d3d;
+    text-align: center;
+    padding-right:30px ;
+    padding-top:20px;
+    font-size:20px;
+}
+/*--------- heading 1-------------- */
+.heading1{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:220px!important ;
+    left:10px!important;
+    font-size:20px;
+}
+/* button  1************/
+.button1{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:204px!important ;
+    left:105px!important;
+}
+
+
+/* image 2 */
+.box2{
+    width:260px!important ;
+    height:260px!important;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    padding-left:30px;
+    position: absolute;
+    top:960px!important ;
+    left:350px!important;
+   
+    
+}
+.box2 img{
+    height:140px ;
+    width:170px;
+    padding-left:8px;
+}
+/*------------------- heading 02--------------- */
+.heading02{
+     color: #3d3d3d;
+    text-align: center;
+    padding-right:30px ;
+    padding-top:15px;
+    font-size:20px;
+}
+/*--------- heading 2-------------- */
+.heading2{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:220px!important ;
+    left:10px!important;
+    font-size:20px;
+}
+/* button  2************/
+.button2{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height:38px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:220px!important ;
+    left:105px!important;
+}
+
+/* -----image 3------------------- */
+ .box3{
+    width:260px!important ;
+    height:260px!important;
+    padding-left:30px;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    position: absolute;
+    top:400px!important;
+    left:350px!important;
+}
+.box3 img{
+    height:130px ;
+    width:170px;
+    padding-left:8px;
+}
+/*------------------- heading 03--------------- */
+.heading03{
+    color: #3d3d3d;
+    text-align: center;
+    padding-right:30px ;
+    padding-top:20px;
+    font-size:20px;
+}
+
+/*--------- heading 3-------------- */
+.heading3{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:220px!important ;
+    left:10px!important;
+    font-size:20px;
+}
+/* button  3************/
+.button3{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:204px!important ;
+    left:105px!important;
+}
+
+/* ---------image 4 */
+.box4{
+    width:260px!important ;
+    height:260px!important;
+    padding-left:30px;
+    padding-top:15px ;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    position: absolute;
+    top:120px;
+    left:350px!important;
+}
+.box4 img{
+    height:140px ;
+    width:170px;
+    padding-left:8px;
+
+}
+/* -------heading 04--------------------- */
+.heading04{
+    color: #3d3d3d;
+    text-align: center;
+    margin-right:30px;
+    font-size: 18px!important;
+    font-size:20px;
+}
+/*--------- heading 4-------------- */
+.heading4{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:220px!important ;
+    left:10px!important;
+    font-size:20px;
+}
+/* button  4************/
+.button4{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:216px!important ;
+    left:105px!important;
+}
+/* -------image 5------------------------------ */
+
+.box5{
+    width:260px!important ;
+    height:260px!important;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    padding-left:30px;
+    position: absolute;
+    top:1240px!important ;
+    left:350px!important;
+}
+.box5 img{
+    height:140px ;
+    width:170px;
+    padding-left:8px;
+}
+/* -------heading 05--------------------- */
+ .heading05{
+     color: #3d3d3d;
+    text-align: center;
+    margin-right:30px;
+    font-size: 18px!important;
+    font-size:20px;
+} 
+/*--------- heading 5-------------- */
+.heading5{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:220px!important ;
+    left:10px!important;
+    font-size:20px;
+} 
+/* button  5************/
+.button5{
+     background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:200px!important ;
+    left:105px!important;
+   
+} 
+/* --------image 6---------------------- */
+
+.box6{
+    width:260px!important ;
+    height:260px!important;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    padding-left:30px;
+    position: absolute;
+    top:1520px!important ;
+    left:350px!important;
+    bottom:10px;
+} 
+.box6 img{
+    height:140px ;
+    width:170px;
+    padding-left:8px;}
+/* -------heading 06--------------------- */
+.heading06{
+    color: #3d3d3d;
+   text-align: center;
+   margin-right:30px;
+   font-size: 18px!important;
+   font-size:20px;
+} 
+/*--------- heading 6--------------------- */
+.heading6{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:200px!important;
+    left: 5px;
+    font-size:20px;
+} 
+/*--------------- button 6************/
+.button6{
+   
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute!important;
+    top:185px!important ;
+    left:50px!important;
+}  
+
+
+
+
+/* *******************************************content boxes**1****************Enddddd************************************************************************************* */
+
+
+
+/* ----start--------contact---us----form--respoNsive------------------------------------------------------------------------------------------------------------------ */
+
+.contact{
+    width: 100%;
+    height:1250px;
+    background-color: #3d3d3d;
+    margin-top: 0px;
+    
+}
+
+.logo2{
+    padding-top: 80px;
+   
+    text-align: center;
+}
+.location{
+   position: absolute;
+   left: -100px;
+   top: 660px;
+}
+
+.map
+
+{
+   
+    padding-left: 10px;
+    padding-top: 560px!important;
+   
+}
+.map iframe{ 
+    width:340px ;
+    height:470px ;
+   
+    
+
+}
+
+.form2{
+    width:120px;
+    margin-left:8px;
+    padding-top:10px;
+    position: absolute;
+    top:190px;
+    left:20px!important;
+}
+.form2 input{
+    display: block;
+    height:50px;
+    width:300px!important;
+    border-radius: 40px;
+}
+.form2 select .selectcon{
+    display: block;
+    height:50px;
+    width:320px!important;
+    border-radius: 40px;
+} 
+ .form2 select  {
+    display: block;
+    height:50px;
+    width:300px!important;
+    border-radius: 40px;
+} 
+.form2 input[type=text], .form2 input[type=email],.form2 input[type=submit],.form2 select ,.form2 input[type=option] {
+ 
+    padding: 10px;
+    margin: 8px 2px 8px 0;
+    border: none;
+    background: #f1f1f1;
+    outline: none;
+  }
+
+  /* ---start-----About--us-----part------responsive----------------------------------------------------------------------------- */
+.huz{
+ position: absolute;
+ top:650px;
+ left:-90px!important;
+}
+.huz img{
+       width:320px!important;
+       height:400px!important;
+
+}
+.owmer{
+    position:absolute;
+top:400px;
+}
+
+.con{
+    align-content: center!important;
+    width: 200px!important;
+    height: 360px!important;
+    position: absolute;
+    left:-400px!important;
+}
+.about{
+    font-size:18px!important;
+
+}
+
+#aboutus{
+   
+    background-size: cover;
+    height:1170px!important;
+    
+}
+
+}
+
+
+
+
+/*-----------------------------------iPhone--11--Pro////iPhone XS///iPhone X///iPhone 8///iPhone 6/6S------------ */
+/* --other-----devices----- which---- --adjust---- on-------375px------ width-----375--- /// --start-----------------------------*/
+
+                         /* -----Home----section------responsive----------------------------------------- */
+
+
+
+
+@media screen and (max-width: 375px)
+{ 
+    body{
+        overflow-x: hidden;
+      
+    }
+    
+    .container{
+        width:100%!important;
+    }
+    nav{
+        width:100%px;
+    }
+    
+    .navbar-toggler-icon{
+        width: 20px; 
+    }
+    .fas-fa-pepper-hot{
+        font-size: 1px!important;
+    }
+    .logo{
+        font-size:23px!important;
+    }
+    .slider{
+        height: 650px!important;
+      width:100%;
+      padding-left: 0px!important;
+      background-size: cover;
+    }
+    .name{
+        font-size: 25px;
+        position: absolute;
+        top:-180px;
+        width:250px!important ;
+        height:70px;
+        
+    }
+    .slogan{
+        font-size:30px;
+        width:190px!important;
+        text-align: center!important;
+        margin-left:90px!important;
+        position: absolute;
+        top: -100px!important;
+        left:8px!important;
+       
+
+    }
+
+
+    
+    .footer{
+        height:800px!important;
+        width:320px;
+      
+        overflow-x: hidden;
+    }
+    .Service{
+        width: 300px;
+        height:170px ;
+        position: absolute;
+        top:660px!important;
+
+       
+
+    }
+    .line1{
+        position: absolute;
+        left: 20px;
+    }
+
+    .Service ul li a {
+        color: white;
+        position: absolute;
+        left: 20px;
+        margin-top:25px;
+
+    }
+    .Service h3{
+        color: white;
+        position: absolute;
+        left: 20px;
+    }
+    .Payment{
+        width: 300px;
+        height:200px ;
+        position: absolute;
+        top:790px!important;
+
+
+    }
+    .line2{
+        position: absolute;
+        left: 20px;
+    }
+
+    .Payment ul li a {
+        color: white;
+        position: absolute;
+        left: 20px;
+        margin-top:25px;
+
+    }
+    .Payment h3{
+        color: white;
+        position: absolute;
+        left: 20px;
+    }
+    .followus{
+        width: 300px;
+        height:200px ;
+        position: absolute;
+        top:990px!important;;
+        
+    }
+    .line3{
+        position: absolute;
+        left: 20px;
+    }
+    .followus ul li a{
+        color: white;
+        position: absolute;
+        left: 20px;
+        margin-top:25px;
+    }
+    .followus h3{
+        color: white;
+        position: absolute;
+        left: 20px;
+    }
+    .main-footer{
+       position: absolute;
+       top:1170px;
+        width:5px!important;
+    }
+    .para{
+
+        width:100%;
+        position: absolute;
+        left:60px;
+    }
+
+
+       /* -----Deals----section------responsive----------------------------------------- */
+    
+       
+  /* ---------Deals-menu--button---nav---Enddddd--------------------------------------------- */
+  
+  .sidenav {padding-top: 15px;}
+  .sidenav button {font-size: 18px;}
+
+  .menu1{
+    font-size:22px!important;
+    padding-top: 0px!important;
+    margin-top: 0px;
+  }
+
+
+  .tabcontent{
+      margin-top:20px ;
+      position: absolute;
+      left:-460px;
+      height:50%;
+  width: 100%;}
+  
+  .slider2{
+      width: 100%;
+  }
+  .slide2 img{
+    width: 100%!important;
+    height: 515px!important;
+    background-size: cover;
+}
+ .name2{
+    font-size: 25px;
+    position: absolute;
+    top:-130px;
+    margin-left:0px ;
+    
+    width:250px!important ;
+    height:40px;
+    
+
+}
+ .slogan2{
+    font-size:30px;
+    width:160px!important;
+    text-align: center!important;
+    margin-left:90px!important;
+    position: absolute;
+    top:50px!important;
+    left:20px;
+}
+.button01{
+    margin-top:400px;
+    margin-left:220px;
+    font-size: 20px;
+    height: 50px;
+    width: 80px;
+}
+
+/*----------------- deals-------------------- buy------------------------ form */
+.form-popup {
+    display: none;
+    position: fixed;
+    top:120px!important;
+    left:35px!important;
+    border: 3px solid #f1f1f1;
+    z-index: 10;
+    width:300px!important;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    width:340px!important;
+    padding:18px;
+    background-color:rgb(61,61, 61);
+  }
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password],.form-container input[type=tel] {
+    width:270px!important;
+    height: 35px!important;
+    padding: 10px;
+    margin: 2px 0 2px 0;
+    border: none;
+    background: #f1f1f1;
+    outline: none;
+  }
+  .pay{
+    width:270px!important;
+    padding: 10px;
+    margin: 2px 0 2px 0;
+    border: none;
+    background: #f1f1f1;
+    color: grey;
+    outline: none;
+
+  }
+  .itemname{
+    width:270px!important;
+    padding: 10px;
+    margin: 2px 0 2px 0;
+    border: none;
+    background: #f1f1f1;
+    color: grey;
+    outline: none;
+
+  }
+  
+  
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+   
+   
+   text-align: center;
+    padding: 0px 5px;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 40%;
+    height: 40px;
+    margin-bottom:-10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+   
+    margin: 10px 0px 2px 20px;
+    border: 2px solid#dc3545;
+  }
+
+   
+/* ********************************************content boxes**1**************************************responsive******************************************** */
+/* image 1 */
+.box1{
+    width:260px!important ;
+    height:260px!important;
+    padding-left:30px;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+  position: absolute;
+  top:680px!important ;
+  left:360px!important;
+}
+/*------------------- heading 01--------------- */
+.box1 img{
+    height:140px ;
+    width:170px;
+    padding-left:8px;
+}
+.heading01{
+    color: #3d3d3d;
+    text-align: center;
+    padding-right:30px ;
+    padding-top:20px;
+    font-size:20px;
+}
+/*--------- heading 1-------------- */
+.heading1{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:230px!important;
+    left: 5px!important;
+    font-size:20px;
+}
+/* button  1************/
+.button1{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:179px!important ;
+    left:50px!important;
+}
+
+
+/* image 2 */
+.box2{
+    width:260px!important ;
+    height:260px!important;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    padding-left:30px;
+    position: absolute;
+    top:960px!important ;
+    left:360px!important;
+   
+    
+}
+.box2 img{
+    height:140px ;
+    width:170px;
+    padding-left:8px;
+}
+/*------------------- heading 02--------------- */
+.heading02{
+     color: #3d3d3d;
+    text-align: center;
+    padding-right:30px ;
+    padding-top:15px;
+    font-size:20px;
+}
+/*--------- heading 2-------------- */
+.heading2{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:230px!important;
+    left: 5px!important;
+    font-size:20px;
+}
+/* button  2************/
+.button2{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height:38px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:187px!important ;
+    left:50px!important;
+}
+
+/* -----image 3------------------- */
+ .box3{
+    width:260px!important ;
+    height:260px!important;
+    padding-left:30px;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    position: absolute;
+    top:400px!important;
+    left:360px!important;
+}
+.box3 img{
+    height:130px ;
+    width:170px;
+    padding-left:8px;
+}
+/*------------------- heading 03--------------- */
+.heading03{
+    color: #3d3d3d;
+    text-align: center;
+    padding-right:30px ;
+    padding-top:20px;
+    font-size:20px;
+}
+
+/*--------- heading 3-------------- */
+.heading3{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:230px!important;
+    left: 5px!important;
+    font-size:20px;
+}
+/* button  3************/
+.button3{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:185px!important ;
+    left:50px!important;
+}
+
+/* ---------image 4 */
+.box4{
+    width:260px!important ;
+    height:260px!important;
+    padding-left:30px;
+    padding-top:15px ;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    position: absolute;
+    top:120px;
+    left:360px!important;
+}
+.box4 img{
+    height:140px ;
+    width:170px;
+    padding-left:8px;
+
+}
+/* -------heading 04--------------------- */
+.heading04{
+    color: #3d3d3d;
+    text-align: center;
+    margin-right:30px;
+    font-size: 18px!important;
+    font-size:20px;
+}
+/*--------- heading 4-------------- */
+.heading4{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:230px!important;
+    left: 5px!important;
+    font-size:20px;
+}
+/* button  4************/
+.button4{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:205px!important ;
+    left:50px!important;
+  
+}
+/* -------image 5------------------------------ */
+
+.box5{
+    width:260px!important ;
+    height:260px!important;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    padding-left:30px;
+    position: absolute;
+    top:1240px!important ;
+    left:360px!important;
+}
+.box5 img{
+    height:140px ;
+    width:170px;
+    padding-left:8px;
+}
+/* -------heading 05--------------------- */
+ .heading05{
+     color: #3d3d3d;
+    text-align: center;
+    margin-right:30px;
+    font-size: 18px!important;
+    font-size:20px;
+} 
+/*--------- heading 5-------------- */
+.heading5{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:230px!important;
+    left: 5px!important;
+    font-size:20px;
+} 
+/* button  5************/
+.button5{
+     background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:185px!important ;
+    left:50px!important;
+} 
+/* --------image 6---------------------- */
+
+.box6{
+    width:260px!important ;
+    height:260px!important;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    padding-left:30px;
+    position: absolute;
+    top:1520px!important ;
+    left:360px!important;
+    bottom:10px;
+} 
+.box6 img{
+    height:140px ;
+    width:170px;
+    padding-left:8px;}
+/* -------heading 06--------------------- */
+.heading06{
+    color: #3d3d3d;
+   text-align: center;
+   margin-right:30px;
+   font-size: 18px!important;
+   font-size:20px;
+} 
+/*--------- heading 6--------------------- */
+.heading6{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:230px!important;
+    left: 5px!important;
+    font-size:20px;
+} 
+/*--------------- button 6************/
+.button6{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:185px!important ;
+    left:50px!important;
+}  
+
+
+
+
+/* *******************************************content boxes**1****************Enddddd************************************************************************************* */
+
+
+
+/* ----start--------contact---us----form--respoNsive------------------------------------------------------------------------------------------------------------------ */
+
+.contact{
+    width: 100%;
+    height:1250px;
+    background-color: #3d3d3d;
+    margin-top: 0px;
+    
+}
+
+.logo2{
+    padding-top: 80px;
+   
+    text-align: center;
+}
+.location{
+   position: absolute;
+   left: -100px;
+   top: 660px;
+}
+
+.map
+
+{
+   
+    padding-left: 10px;
+    padding-top: 560px!important;
+   
+}
+.map iframe{ 
+    width:349px!important;
+    height:470px !important;
+    overflow-x: hidden!important;
+   
+    
+
+}
+
+.form2{
+    width:120px;
+    margin-left:8px;
+    padding-top:10px;
+    position: absolute;
+    top:190px;
+    left:30px;
+}
+.form2 input{
+    display: block;
+    height:50px;
+    width:300px;
+    border-radius: 40px;
+}
+.form2 select  {
+    display: block;
+    height:50px;
+    width:300px!important;
+    border-radius: 40px;
+}
+.form2 input[type=text], .form2 input[type=email],.form2 input[type=submit],.form2 select ,.form2 input[type=option] {
+ 
+    padding: 10px;
+    margin: 8px 0 8px 0;
+    border: none;
+    background: #f1f1f1;
+    outline: none;
+  }
+
+  /* ---start-----About--us-----part------responsive----------------------------------------------------------------------------- */
+
+  #aboutus{
+    background-image: url(img/sp.jpg );
+    background-attachment: cover!important;
+    background-size: cover!important;
+    height:740px;
+    width: 100%!important;
+}
+
+
+
+  .huz{
+ position: absolute!important;
+ top:750px!important;
+ left:-95px!important;
+}
+.huz img{
+       width:340px!important;
+       height:400px!important;
+
+}
+.owmer{
+    position:absolute;
+top:400px;
+}
+
+.con{
+    width: 200px!important;
+    height: 360px!important;
+    position: absolute!important;
+    right: 10px!important;
+}
+
+.about{
+    font-size:20px;
+}
+
+#aboutus{
+   
+    background-size: cover;
+    height:1170px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/* -------Xiaomi Redmi Note 5-----huawai---Y9-------393px--width----------------------Started here------------------------------------------------------------------ */
+/* -------Xiaomi Redmi Note 5-----huawai---Y9-------393px--width----------------------Started here------------------------------------------------------------------ */
+/* -------Xiaomi Redmi Note 5-----huawai---Y9-------393px--width----------------------Started here------------------------------------------------------------------ */
+/* -------Xiaomi Redmi Note 5-----huawai---Y9-------393px--width----------------------Started here------------------------------------------------------------------- */
+/* -------Xiaomi Redmi Note 5-----huawai---Y9-------393px--width---------------------------------------------------------------------------------------------- */
+
+
+@media screen and (max-width: 393px)
+{ 
+
+
+
+
+    
+    body{
+        overflow-x: hidden;
+      
+    }
+    
+    .container{
+        width:100%!important;
+    }
+    nav{
+        width:100%px;
+    }
+    
+    .navbar-toggler-icon{
+        width: 20px; 
+    }
+    .fas-fa-pepper-hot{
+        font-size: 1px!important;
+    }
+    .logo{
+        font-size:23px!important;
+    }
+    .slider{
+        height:750px!important;
+      width:100%;
+      padding-left: 0px!important;
+      background-size: cover;
+    }
+    .name{
+        font-size: 25px;
+        position: absolute;
+        top:-180px;
+        width:250px!important ;
+        height:70px;
+        
+    }
+    .slogan{
+        font-size:30px;
+        width:190px!important;
+        text-align: center!important;
+        margin-left:90px!important;
+        position: absolute;
+        top: -100px!important;
+        left:8px!important;
+       
+
+    }
+
+
+    
+    .footer{
+        height:1000px!important;
+        width:320px;
+
+      
+        overflow-x: hidden;
+    }
+    .main-footer{
+        position: absolute;
+        top: 1300px!important;
+    }
+    .Service{
+        width: 300px;
+        height:170px ;
+        position: absolute;
+        top:780px!important;
+
+       
+
+    }
+    .line1{
+        position: absolute;
+        left: 20px;
+    }
+
+    .Service ul li a {
+        color: white;
+        position: absolute;
+        left: 20px;
+        margin-top:25px;
+
+    }
+    .Service h3{
+        color: white;
+        position: absolute;
+        left: 20px;
+    }
+    .Payment{
+        width: 300px;
+        height:200px ;
+        position: absolute;
+        top:920px!important;
+
+    }
+    .line2{
+        position: absolute;
+        left: 20px;
+    }
+
+    .Payment ul li a {
+        color: white;
+        position: absolute;
+        left: 20px;
+        margin-top:25px;
+
+    }
+    .Payment h3{
+        color: white;
+        position: absolute;
+        left: 20px;
+    }
+    .followus{
+        width: 300px;
+        height:200px ;
+        position: absolute;
+        top:1110px!important;;
+        
+    }
+    .line3{
+        position: absolute;
+        left: 20px;
+    }
+    .followus ul li a{
+        color: white;
+        position: absolute;
+        left: 20px;
+        margin-top:25px;
+    }
+    .followus h3{
+        color: white;
+        position: absolute;
+        left: 20px;
+    }
+    .main-footer{
+       position: absolute;
+       top:1170px;
+        width:5px!important;
+    }
+    .para{
+
+        width:100%;
+        position: absolute;
+        left:60px;
+    }
+/* -------------home-----section---------------------------------------------------------------- */
+
+       /* -----Deals----section------responsive----------------------------------------- */
+    
+       
+  /* ---------Deals-menu--button---nav---Enddddd--------------------------------------------- */
+/*   
+  .sidenav {padding-top: 15px;}
+  .sidenav button {font-size: 18px;} */
+  /* ----------------Side---navigation--bar-------------------------------- */
+/* 
+.sidenav {
+    height:640px!important;
+    width:0;
+    position: fixed; 
+    z-index: 1;
+    top: 130px;
+    left: 5px;
+    background-color:rgba(46, 46, 46, 0);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+  }
+  
+  .sidenav button {
+    
+  
+    text-decoration: none;
+    font-size: 25px;
+    color:  #dc3545;
+    background-color:#2e2e2e;
+    display: block;
+    transition: 0.3s;
+    height:50px;
+    width: 180px;
+    border:3px solid #dc3545 ;
+    border-radius: 40px;
+    outline: none;
+    margin:-10px 6px;
+
+  }
+  
+  .sidenav button:hover {
+    background-color:#2e2e2e;
+  color:#427900;
+  
+  outline: none;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top:-18px;
+    right: 0px;
+    font-size: 36px;
+    margin-left: 80px;
+    color:#dc3545 ;
+  } */
+
+
+/*--------------------- demo------------------------------ */
+/* 
+  .menu1{
+    font-size:25px!important;
+    padding-top: 2px!important;
+    margin-top: 0px!important;
+  } */
+
+
+  .tabcontent{
+      margin-top:20px ;
+      position: absolute;
+      left:-460px;
+      height:50%;
+  width: 100%;
+}
+  
+  .slider2{
+      width: 100%;
+  }
+  .slide2 img{
+    width: 100%!important;
+    height:600px!important;
+    background-size: cover;
+}
+ .name2{
+    font-size: 25px;
+    position: absolute;
+    top:-150px!important;
+    margin-left:0px ;
+    
+    width:250px!important ;
+    height:40px;
+    
+
+}
+ .slogan2{
+    font-size:30px;
+    width:160px!important;
+    text-align: center!important;
+    margin-left:90px!important;
+    position: absolute;
+    top:50px!important;
+    left:20px;
+}
+.button01{
+    margin-top:400px;
+    margin-left:220px;
+    font-size: 20px;
+    height: 50px;
+    width: 80px;
+}
+
+/*----------------- deals-------------------- buy------------------------ form */
+.form-popup {
+    display: none;
+    position: fixed;
+    top:120px!important;
+    left:35px!important;
+    border: 3px solid #f1f1f1;
+    z-index: 10;
+    width:300px!important;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    width:340px!important;
+    padding:18px;
+    background-color:rgb(61,61, 61);
+  }
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password],.form-container input[type=tel] {
+    width:270px!important;
+    height: 35px!important;
+    padding: 10px;
+    margin: 2px 0 2px 0;
+    border: none;
+    background: #f1f1f1;
+    outline: none;
+  }
+  .pay{
+    width:270px!important;
+    padding: 10px;
+    margin: 2px 0 2px 0;
+    border: none;
+    background: #f1f1f1;
+    color: grey;
+    outline: none;
+
+  }
+  .itemname{
+    width:270px!important;
+    padding: 10px;
+    margin: 2px 0 2px 0;
+    border: none;
+    background: #f1f1f1;
+    color: grey;
+    outline: none;
+
+  }
+  
+  
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+   
+   
+   text-align: center;
+    padding: 0px 5px;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 40%;
+    height: 40px;
+    margin-bottom:-10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+   
+    margin: 10px 0px 2px 20px;
+    border: 2px solid#dc3545;
+  }
+
+   
+/* ********************************************content boxes**1**************************************responsive******************************************** */
+/* image 1 */
+.box1{
+    width:260px!important ;
+    height:260px!important;
+    padding-left:30px;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+  position: absolute;
+  top:680px!important ;
+  left:360px!important;
+}
+/*------------------- heading 01--------------- */
+.box1 img{
+    height:140px ;
+    width:170px;
+    padding-left:8px;
+}
+.heading01{
+    color: #3d3d3d;
+    text-align: center;
+    padding-right:30px ;
+    padding-top:20px;
+    font-size:20px;
+}
+/*--------- heading 1-------------- */
+.heading1{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:230px!important;
+    left: 5px!important;
+    font-size:20px;
+}
+/* button  1************/
+.button1{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:179px!important ;
+    left:50px!important;
+}
+
+
+/* image 2 */
+.box2{
+    width:260px!important ;
+    height:260px!important;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    padding-left:30px;
+    position: absolute;
+    top:960px!important ;
+    left:360px!important;
+   
+    
+}
+.box2 img{
+    height:140px ;
+    width:170px;
+    padding-left:8px;
+}
+/*------------------- heading 02--------------- */
+.heading02{
+     color: #3d3d3d;
+    text-align: center;
+    padding-right:30px ;
+    padding-top:15px;
+    font-size:20px;
+}
+/*--------- heading 2-------------- */
+.heading2{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:230px!important;
+    left: 5px!important;
+    font-size:20px;
+}
+/* button  2************/
+.button2{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height:38px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:187px!important ;
+    left:50px!important;
+}
+
+/* -----image 3------------------- */
+ .box3{
+    width:260px!important ;
+    height:260px!important;
+    padding-left:30px;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    position: absolute;
+    top:400px!important;
+    left:360px!important;
+}
+.box3 img{
+    height:130px ;
+    width:170px;
+    padding-left:8px;
+}
+/*------------------- heading 03--------------- */
+.heading03{
+    color: #3d3d3d;
+    text-align: center;
+    padding-right:30px ;
+    padding-top:20px;
+    font-size:20px;
+}
+
+/*--------- heading 3-------------- */
+.heading3{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:230px!important;
+    left: 5px!important;
+    font-size:20px;
+}
+/* button  3************/
+.button3{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:185px!important ;
+    left:50px!important;
+}
+
+/* ---------image 4 */
+.box4{
+    width:260px!important ;
+    height:260px!important;
+    padding-left:30px;
+    padding-top:15px ;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    position: absolute;
+    top:120px;
+    left:360px!important;
+}
+.box4 img{
+    height:140px ;
+    width:170px;
+    padding-left:8px;
+
+}
+/* -------heading 04--------------------- */
+.heading04{
+    color: #3d3d3d;
+    text-align: center;
+    margin-right:30px;
+    font-size: 18px!important;
+    font-size:20px;
+}
+/*--------- heading 4-------------- */
+.heading4{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:230px!important;
+    left: 5px!important;
+    font-size:20px;
+}
+/* button  4************/
+.button4{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:205px!important ;
+    left:50px!important;
+  
+}
+/* -------image 5------------------------------ */
+
+.box5{
+    width:260px!important ;
+    height:260px!important;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    padding-left:30px;
+    position: absolute;
+    top:1240px!important ;
+    left:360px!important;
+}
+.box5 img{
+    height:140px ;
+    width:170px;
+    padding-left:8px;
+}
+/* -------heading 05--------------------- */
+ .heading05{
+     color: #3d3d3d;
+    text-align: center;
+    margin-right:30px;
+    font-size: 18px!important;
+    font-size:20px;
+} 
+/*--------- heading 5-------------- */
+.heading5{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:230px!important;
+    left: 5px!important;
+    font-size:20px;
+} 
+/* button  5************/
+.button5{
+     background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:185px!important ;
+    left:50px!important;
+} 
+/* --------image 6---------------------- */
+
+.box6{
+    width:260px!important ;
+    height:260px!important;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    padding-left:30px;
+    position: absolute;
+    top:1520px!important ;
+    left:360px!important;
+    bottom:10px;
+} 
+.box6 img{
+    height:140px ;
+    width:170px;
+    padding-left:8px;}
+/* -------heading 06--------------------- */
+.heading06{
+    color: #3d3d3d;
+   text-align: center;
+   margin-right:30px;
+   font-size: 18px!important;
+   font-size:20px;
+} 
+/*--------- heading 6--------------------- */
+.heading6{
+    color: rgb(49, 190, 49);
+    position: absolute;
+    top:230px!important;
+    left: 5px!important;
+    font-size:20px;
+} 
+/*--------------- button 6************/
+.button6{
+    background-color:#e0352b;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e0352b;
+    border-radius: 4px;
+    position: absolute;
+    top:185px!important ;
+    left:50px!important;
+}  
+
+
+
+
+/* *******************************************content boxes**1****************Enddddd************************************************************************************* */
+
+
+
+/* ----start--------contact---us----form--respoNsive------------------------------------------------------------------------------------------------------------------ */
+
+.contact{
+    width: 100%!important;
+    height:1300px!important;
+    background-color: #3d3d3d;
+    margin-top: 0px;
+    
+}
+
+.logo2{
+    padding-top: 80px;
+   
+    text-align: center;
+}
+.location{
+   position: absolute;
+   left: -100px;
+   top: 660px;
+}
+
+.map
+
+{
+   
+    padding-left: 10px;
+    padding-top: 560px!important;
+   
+}
+.map iframe{ 
+    width:370px ;
+    height:470px ;
+   
+    
+
+}
+
+.form2{
+    width:120px;
+    margin-left:8px;
+    padding-top:10px;
+    position: absolute;
+    top:190px;
+    left:30px;
+}
+.form2 input{
+    display: block;
+    height:50px;
+    width:300px;
+    border-radius: 40px;
+}
+.form2 select  {
+    display: block;
+    height:50px;
+    width:300px!important;
+    border-radius: 40px;
+}
+.form2 input[type=text], .form2 input[type=email],.form2 input[type=submit],.form2 select ,.form2 input[type=option] {
+ 
+    padding: 10px;
+    margin: 8px 0 8px 0;
+    border: none;
+    background: #f1f1f1;
+    outline: none;
+  }
+
+  /* ---start-----About--us-----part------responsive----------------------------------------------------------------------------- */
+
+  #aboutus{
+    background-image: url(img/sp.jpg );
+    background-attachment: cover!important;
+    background-size: cover!important;
+    height:1300px!important;
+    width: 100%!important;
+}
+
+
+
+  .huz{
+ position: absolute;
+ top:750px;
+ left:-80px;
+}
+.huz img{
+    width: 360px!important;
+       height:400px!important;
+
+}
+.owmer{
+    position:absolute;
+top:400px;
+}
+
+.con{
+    width: 320px!important;
+    height:500px!important;
+    position: absolute;
+    top: 220px!important;
+    left:15px!important;
+    margin-left:20px!important;
+}
+
+.about{
+    font-size:20px!important;
+    position: absolute!important;
+    top: 30px!important;
+}
+
+#aboutus{
+   
+    background-size: cover;
+    height:1170px;
+}
+
+}
+/* -------Xiaomi Redmi Note 5-----huawai---Y9-------393px--width------------------------------End here---------------------------------------------------------------- */
+/* -------Xiaomi Redmi Note 5-----huawai---Y9-------393px--width-------------------------------End here--------------------------------------------------------------- */
